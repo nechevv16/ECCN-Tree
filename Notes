@@ -1,2 +1,32 @@
 always create separate classes for CTk, CTkToplevel or CTkFrame.
 
+(UpperCamelCase) Class names:
+should generally follow the UpperCamelCase convention, also known as PascalCase.
+Example: class MyClass:
+
+(snake_case) Function and Method Names:
+should also be in lowercase and, if necessary, separated by underscores.
+Example: def my_function():
+
+(snake_case) Variable Names:
+should be in lowercase and, if necessary, separated by underscores. This convention is the most common in Python.
+Example: my_variable = 10
+
+(UPPERCASE_WITH_UNDERSCORES) Constant Names:
+variables whose values are not expected to change, should be in UPPERCASE_WITH_UNDERSCORES.
+Example: MAX_SIZE = 100
+
+(_* or __*) Private and Protected Members:
+should start with a single underscore (_), indicating that they are intended for internal use only. Protected members should start with a double underscore (__).
+Example: self._private_variable = 10
+
+Module Names:
+should be short and descriptive, and they should be in lowercase if possible. Avoid using underscores in module names unless necessary.
+Example: import my_module
+
+Package Names:
+should be all lowercase and avoid underscores. They should be short and descriptive.
+Example: import mypackage
+
+Avoid Using Single-Character Names:
+Unless they represent simple iterators (e.g., i, j, k), avoid using single-character names for variables, functions, or parameters. Use descriptive names to enhance readability.
